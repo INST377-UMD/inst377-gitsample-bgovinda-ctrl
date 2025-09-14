@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lab2</title>
+<style>
+/* Background for Page 1 */
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+}
+
+/* Form group styling using div */
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+h1 {
+  text-align: left;
+  margin-top: 30px;
+  font-size: 2em;
+  color: #333;
+}
+
+</style>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>INST377 Lab2 - Bala Govindaraju</h1>
+
+  <form action="thankyou.html" method="GET">
+    <div class="form-group">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required />
+    </div>
+    
+    <div class="form-group">
+      <label for="email">Email Address:</label>
+      <input type="email" id="email" name="email" />
+    </div>
+
+    <button type="submit" class="submit-btn">Submit</button>
+  </form>
+
+</body>
+</html>
